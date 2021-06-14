@@ -1,0 +1,22 @@
+{
+    "name": "isaeken/composer-ui",
+    "description": "Composer UI",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Isa Eken",
+            "email": "hello@isaeken.com.tr"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "symfony/var-dumper": "^5.3",
+        "composer/composer": "^2.1",
+        "illuminate/support": "^8.46"
+    },
+    "autoload": {
+        "psr-4": {
+            "IsaEken\\ComposerUI\\": "src/"
+        }
+    }
+}
